@@ -4,5 +4,7 @@ platform :ios, '7.0'
 
 # 对于某个target引入的库,
 target :YXComponent do
+    
+    pod 'Masonry', '~> 0.6.3'
 
 end

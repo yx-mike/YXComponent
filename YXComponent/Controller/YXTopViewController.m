@@ -1,24 +1,24 @@
 //
-//  YXViewController.m
+//  YXTopViewController.m
 //  YXComponent
 //
 //  Created by weidian2015090112 on 12/22/15.
 //  Copyright © 2015 yx. All rights reserved.
 //
 
-#import "YXViewController.h"
+#import "YXTopViewController.h"
 
-@interface YXViewController ()
+@interface YXTopViewController ()
 
 @end
 
-@implementation YXViewController
+@implementation YXTopViewController
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.hidesBottomBarWhenPushed = YES;
+        self.hidesBottomBarWhenPushed = NO;
     }
     return self;
 }

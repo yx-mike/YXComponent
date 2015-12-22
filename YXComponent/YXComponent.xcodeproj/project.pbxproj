@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F688582A879A0E501E02F03 /* libPods-YXComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C401E44141B98737E978CB80 /* libPods-YXComponent.a */; };
 		DF2A9EF01C29354500129B96 /* YXConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2A9EEF1C29354500129B96 /* YXConstant.m */; };
+		DFA43F1E1C293B5300ADBBDB /* YXTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA43F1D1C293B5300ADBBDB /* YXTopViewController.m */; };
+		DFA43F221C293D5800ADBBDB /* YXNavBarScrollerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA43F211C293D5800ADBBDB /* YXNavBarScrollerVC.m */; };
+		DFA43F251C294CC000ADBBDB /* Jessica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA43F241C294CC000ADBBDB /* Jessica.jpeg */; };
+		DFA43F271C29613B00ADBBDB /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA43F261C29613B00ADBBDB /* Icon.jpg */; };
 		DFBE08741C292A29008B4B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBE08731C292A29008B4B4E /* main.m */; };
 		DFBE08771C292A29008B4B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBE08761C292A29008B4B4E /* AppDelegate.m */; };
 		DFBE087F1C292A29008B4B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBE087E1C292A29008B4B4E /* Assets.xcassets */; };
@@ -37,10 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60FD774B9B08C6EFE7AF78C9 /* Pods-YXComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXComponent/Pods-YXComponent.release.xcconfig"; sourceTree = "<group>"; };
+		8F79F7C9F88B58AC99B70BA5 /* Pods-YXComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXComponent/Pods-YXComponent.debug.xcconfig"; sourceTree = "<group>"; };
+		C401E44141B98737E978CB80 /* libPods-YXComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXComponent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2A9EED1C2934EA00129B96 /* YXMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXMacros.h; path = Application/YXMacros.h; sourceTree = "<group>"; };
 		DF2A9EEE1C29354500129B96 /* YXConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXConstant.h; path = Application/YXConstant.h; sourceTree = "<group>"; };
 		DF2A9EEF1C29354500129B96 /* YXConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXConstant.m; path = Application/YXConstant.m; sourceTree = "<group>"; };
 		DF2A9EF11C29358900129B96 /* YXComponent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YXComponent-Prefix.pch"; sourceTree = "<group>"; };
+		DFA43F1C1C293B5300ADBBDB /* YXTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXTopViewController.h; path = Controller/YXTopViewController.h; sourceTree = "<group>"; };
+		DFA43F1D1C293B5300ADBBDB /* YXTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXTopViewController.m; path = Controller/YXTopViewController.m; sourceTree = "<group>"; };
+		DFA43F201C293D5800ADBBDB /* YXNavBarScrollerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXNavBarScrollerVC.h; path = Controller/TabBarNo.1/YXNavBarScrollerVC.h; sourceTree = "<group>"; };
+		DFA43F211C293D5800ADBBDB /* YXNavBarScrollerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXNavBarScrollerVC.m; path = Controller/TabBarNo.1/YXNavBarScrollerVC.m; sourceTree = "<group>"; };
+		DFA43F241C294CC000ADBBDB /* Jessica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jessica.jpeg; sourceTree = "<group>"; };
+		DFA43F261C29613B00ADBBDB /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
 		DFBE086F1C292A29008B4B4E /* YXComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE08731C292A29008B4B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFBE08751C292A29008B4B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F688582A879A0E501E02F03 /* libPods-YXComponent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7005F13B7A3CDD3052C9C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C401E44141B98737E978CB80 /* libPods-YXComponent.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF2A9EEB1C2934B100129B96 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +121,24 @@
 			name = Application;
 			sourceTree = "<group>";
 		};
+		DFA43F1F1C293BC400ADBBDB /* TabBarNo.1 */ = {
+			isa = PBXGroup;
+			children = (
+				DFA43F201C293D5800ADBBDB /* YXNavBarScrollerVC.h */,
+				DFA43F211C293D5800ADBBDB /* YXNavBarScrollerVC.m */,
+			);
+			name = TabBarNo.1;
+			sourceTree = "<group>";
+		};
+		DFA43F231C294CC000ADBBDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFA43F261C29613B00ADBBDB /* Icon.jpg */,
+				DFA43F241C294CC000ADBBDB /* Jessica.jpeg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DFBE08661C292A29008B4B4E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +147,8 @@
 				DFBE088B1C292A29008B4B4E /* YXComponentTests */,
 				DFBE08961C292A29008B4B4E /* YXComponentUITests */,
 				DFBE08701C292A29008B4B4E /* Products */,
+				E54C105AFDB243C1345FE08E /* Pods */,
+				B7005F13B7A3CDD3052C9C6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +165,7 @@
 		DFBE08711C292A29008B4B4E /* YXComponent */ = {
 			isa = PBXGroup;
 			children = (
+				DFA43F231C294CC000ADBBDB /* Resources */,
 				DF2A9EEB1C2934B100129B96 /* Application */,
 				DFCBC52B1C292C5A00DF74B9 /* VC */,
 				DFBE08751C292A29008B4B4E /* AppDelegate.h */,
@@ -178,8 +222,20 @@
 		DFCBC5381C292F2500DF74B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DFA43F1F1C293BC400ADBBDB /* TabBarNo.1 */,
+				DFA43F1C1C293B5300ADBBDB /* YXTopViewController.h */,
+				DFA43F1D1C293B5300ADBBDB /* YXTopViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E54C105AFDB243C1345FE08E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F79F7C9F88B58AC99B70BA5 /* Pods-YXComponent.debug.xcconfig */,
+				60FD774B9B08C6EFE7AF78C9 /* Pods-YXComponent.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFBE089C1C292A29008B4B4E /* Build configuration list for PBXNativeTarget "YXComponent" */;
 			buildPhases = (
+				8045F207A345133B97827A07 /* Check Pods Manifest.lock */,
 				DFBE086B1C292A29008B4B4E /* Sources */,
 				DFBE086C1C292A29008B4B4E /* Frameworks */,
 				DFBE086D1C292A29008B4B4E /* Resources */,
+				BB71F522F6F8F259466FF6D9 /* Embed Pods Frameworks */,
+				BAFBA2390415A80A70A592C8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA43F251C294CC000ADBBDB /* Jessica.jpeg in Resources */,
 				DFBE087F1C292A29008B4B4E /* Assets.xcassets in Resources */,
+				DFA43F271C29613B00ADBBDB /* Icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +368,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8045F207A345133B97827A07 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFBA2390415A80A70A592C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXComponent/Pods-YXComponent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB71F522F6F8F259466FF6D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXComponent/Pods-YXComponent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFBE086B1C292A29008B4B4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DFCBC5341C292CD100DF74B9 /* YXNavigationController.m in Sources */,
+				DFA43F221C293D5800ADBBDB /* YXNavBarScrollerVC.m in Sources */,
 				DFCBC5311C292CA200DF74B9 /* YXViewController.m in Sources */,
 				DFBE08771C292A29008B4B4E /* AppDelegate.m in Sources */,
+				DFA43F1E1C293B5300ADBBDB /* YXTopViewController.m in Sources */,
 				DFCBC5371C292E7900DF74B9 /* YXMainTabBarController.m in Sources */,
 				DFBE08741C292A29008B4B4E /* main.m in Sources */,
 				DFCBC52E1C292C8F00DF74B9 /* YXTabBarController.m in Sources */,
@@ -436,6 +547,7 @@
 		};
 		DFBE089D1C292A29008B4B4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F79F7C9F88B58AC99B70BA5 /* Pods-YXComponent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -452,6 +564,7 @@
 		};
 		DFBE089E1C292A29008B4B4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FD774B9B08C6EFE7AF78C9 /* Pods-YXComponent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

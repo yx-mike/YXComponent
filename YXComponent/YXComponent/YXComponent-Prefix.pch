@@ -12,4 +12,6 @@
     #import "YXMacros.h"
     #import "YXConstant.h"
 
+    #import "Masonry.h"
+
 #endif /* YXComponent_pch */

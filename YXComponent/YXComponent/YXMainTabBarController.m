@@ -7,6 +7,9 @@
 //
 
 #import "YXMainTabBarController.h"
+//
+#import "YXNavigationController.h"
+#import "YXNavBarScrollerVC.h"
 
 @interface YXMainTabBarController ()
 
@@ -14,19 +17,19 @@
 
 @implementation YXMainTabBarController
 
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        
-    }
-    return self;
-}
-
 - (void)loadView {
     [super loadView];
     //
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = AppBackgroundColor;
+    
+    YXNavBarScrollerVC *vc1 = [[YXNavBarScrollerVC alloc] init];
+    YXNavigationController *nav1 = [[YXNavigationController alloc] initWithRootViewController:vc1];
+    
+    UITabBarItem *tabItem = [[UITabBarItem alloc] initWithTitle:@"No.1" image:nil tag:0];
+    nav1.tabBarItem = tabItem;
+    
+    self.viewControllers = @[nav1];
 }
 
 - (void)viewDidLoad {
