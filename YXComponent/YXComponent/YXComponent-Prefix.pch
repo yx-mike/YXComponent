@@ -1,0 +1,15 @@
+//
+//  YXComponent.pch
+//  YXComponent
+//
+//  Created by weidian2015090112 on 12/22/15.
+//  Copyright © 2015 yx. All rights reserved.
+//
+
+#ifndef YXComponent_pch
+#define YXComponent_pch
+
+    #import "YXMacros.h"
+    #import "YXConstant.h"
+
+#endif /* YXComponent_pch */

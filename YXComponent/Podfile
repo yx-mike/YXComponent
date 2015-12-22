@@ -1,0 +1,8 @@
+# Uncomment this line to define a global platform for your project
+# 构建static library 的iOS平台
+platform :ios, '7.0'
+
+# 对于某个target引入的库,
+target :YXComponent do
+
+end
