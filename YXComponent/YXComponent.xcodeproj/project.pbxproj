@@ -13,6 +13,8 @@
 		DFA43F221C293D5800ADBBDB /* YXNavBarScrollerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA43F211C293D5800ADBBDB /* YXNavBarScrollerVC.m */; };
 		DFA43F251C294CC000ADBBDB /* Jessica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFA43F241C294CC000ADBBDB /* Jessica.jpeg */; };
 		DFA43F271C29613B00ADBBDB /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFA43F261C29613B00ADBBDB /* Icon.jpg */; };
+		DFB66B5C1C2A3DF4001A3426 /* YXCustomCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB66B5B1C2A3DF4001A3426 /* YXCustomCollectionVC.m */; };
+		DFB66B601C2A4213001A3426 /* YXCustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB66B5F1C2A4213001A3426 /* YXCustomFlowLayout.m */; };
 		DFBE08741C292A29008B4B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBE08731C292A29008B4B4E /* main.m */; };
 		DFBE08771C292A29008B4B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBE08761C292A29008B4B4E /* AppDelegate.m */; };
 		DFBE087F1C292A29008B4B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBE087E1C292A29008B4B4E /* Assets.xcassets */; };
@@ -55,6 +57,10 @@
 		DFA43F211C293D5800ADBBDB /* YXNavBarScrollerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXNavBarScrollerVC.m; path = Controller/TabBarNo.1/YXNavBarScrollerVC.m; sourceTree = "<group>"; };
 		DFA43F241C294CC000ADBBDB /* Jessica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jessica.jpeg; sourceTree = "<group>"; };
 		DFA43F261C29613B00ADBBDB /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		DFB66B5A1C2A3DF4001A3426 /* YXCustomCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCustomCollectionVC.h; sourceTree = "<group>"; };
+		DFB66B5B1C2A3DF4001A3426 /* YXCustomCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCustomCollectionVC.m; sourceTree = "<group>"; };
+		DFB66B5E1C2A4213001A3426 /* YXCustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCustomFlowLayout.h; sourceTree = "<group>"; };
+		DFB66B5F1C2A4213001A3426 /* YXCustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCustomFlowLayout.m; sourceTree = "<group>"; };
 		DFBE086F1C292A29008B4B4E /* YXComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE08731C292A29008B4B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFBE08751C292A29008B4B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +143,26 @@
 				DFA43F241C294CC000ADBBDB /* Jessica.jpeg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFB66B591C2A3DE9001A3426 /* TabBarNo.2 */ = {
+			isa = PBXGroup;
+			children = (
+				DFB66B5D1C2A409E001A3426 /* FlowLayout */,
+				DFB66B5A1C2A3DF4001A3426 /* YXCustomCollectionVC.h */,
+				DFB66B5B1C2A3DF4001A3426 /* YXCustomCollectionVC.m */,
+			);
+			name = TabBarNo.2;
+			path = Controller/TabBarNo.2;
+			sourceTree = "<group>";
+		};
+		DFB66B5D1C2A409E001A3426 /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DFB66B5E1C2A4213001A3426 /* YXCustomFlowLayout.h */,
+				DFB66B5F1C2A4213001A3426 /* YXCustomFlowLayout.m */,
+			);
+			path = FlowLayout;
 			sourceTree = "<group>";
 		};
 		DFBE08661C292A29008B4B4E = {
@@ -222,6 +248,7 @@
 		DFCBC5381C292F2500DF74B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DFB66B591C2A3DE9001A3426 /* TabBarNo.2 */,
 				DFA43F1F1C293BC400ADBBDB /* TabBarNo.1 */,
 				DFA43F1C1C293B5300ADBBDB /* YXTopViewController.h */,
 				DFA43F1D1C293B5300ADBBDB /* YXTopViewController.m */,
@@ -423,10 +450,12 @@
 			files = (
 				DFCBC5341C292CD100DF74B9 /* YXNavigationController.m in Sources */,
 				DFA43F221C293D5800ADBBDB /* YXNavBarScrollerVC.m in Sources */,
+				DFB66B601C2A4213001A3426 /* YXCustomFlowLayout.m in Sources */,
 				DFCBC5311C292CA200DF74B9 /* YXViewController.m in Sources */,
 				DFBE08771C292A29008B4B4E /* AppDelegate.m in Sources */,
 				DFA43F1E1C293B5300ADBBDB /* YXTopViewController.m in Sources */,
 				DFCBC5371C292E7900DF74B9 /* YXMainTabBarController.m in Sources */,
+				DFB66B5C1C2A3DF4001A3426 /* YXCustomCollectionVC.m in Sources */,
 				DFBE08741C292A29008B4B4E /* main.m in Sources */,
 				DFCBC52E1C292C8F00DF74B9 /* YXTabBarController.m in Sources */,
 				DF2A9EF01C29354500129B96 /* YXConstant.m in Sources */,
